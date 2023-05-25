@@ -19,17 +19,17 @@ public class Exercicio2 {
 			System.out.println("O Número " + n1 + " é par e positivo!");
 		}
 		
-		if(n1%2!=0 && n1 >= 0) {
+		else if(n1%2!=0 && n1 >= 0) {
 			
 			System.out.println("O Número " + n1 + " é ímpar e positivo!");
 		}
 		
-        if(n1%2==0 && n1 < 0) {
+		else if(n1%2==0 && n1 < 0) {
 			
 			System.out.println("O Número " + n1 + " é par e negativo!");
 		}
 		
-        if(n1%2!=0 && n1 < 0) {
+		else if(n1%2!=0 && n1 < 0) {
 			
 			System.out.println("O Número " + n1 + " é ímpar e negativo!");
         }
