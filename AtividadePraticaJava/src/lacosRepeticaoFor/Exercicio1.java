@@ -6,30 +6,28 @@ public class Exercicio1 {
 
 	public static void main(String[] args) {
 
-		int num, impar = 0, par = 0, i;
+		Scanner sc = new Scanner(System.in);
 
-		Scanner leia = new Scanner(System.in);
+		int numPar = 0, numImpar = 0, num;
 
-		for (i = 1; i <= 10; i++) {
-			System.out.println("Digite o " + i + "º número");
-			num = leia.nextInt();
+		for (int i = 1; i <= 4; i++) {
+			System.out.printf("Digite o %dº número: ", i);
+			num = sc.nextInt();
 
 			if (num % 2 == 0) {
 
-				par++;
+				numPar++;
 			}
 
 			else {
-
-				impar++;
+				numImpar++;
 			}
-
 		}
-		System.out.println("Total de números pares: " + par);
-		System.out.println("Total de números ímpares:" + impar);
+
+		System.out.println("Total de números pares: " + numPar);
+		System.out.println("Total de números ímpares: " + numImpar);
 		
-		
-	    leia.close();
+		sc.close();
 	}
 
-}	
+}
