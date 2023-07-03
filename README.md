@@ -1,3 +1,3 @@
 # Projeto-ContaBancaria do Módulo I da Generation Brasil
 
-<img src= "https://imgur.com/93Mii3F" alt="Logo - Conta Menu" style="height: 150px; width:250px;"/>
+<img src= "https://i.imgur.com/wK5amov.png" alt="Logo - Conta Menu" style="height: 350px; width:450px;"/>
